@@ -1,0 +1,67 @@
+body {
+  background-color: #352f5b !important;
+}
+
+/* header styling below  */
+.Title {
+  color: white;
+  background-color: black;
+  border: 2px solid rgb(2, 0, 0);
+  border-radius: 20px;
+}
+
+.Title:hover {
+  color: red;
+  transition: 1s ease;
+  border: 2px solid white;
+}
+
+/* input tag styling below  */
+input {
+  background-color: rgb(170, 88, 247);
+  color: black;
+  font-weight: bolder;
+  font-size: 30px;
+  height: 60px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+input:hover{
+  border: 2px solid white;
+  color: black;
+  background-color: rgb(171, 238, 132);
+  transition: 0.5s ease;
+}
+
+::placeholder {
+  color: rgb(68, 42, 42);
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+/* boxes styling below  */
+#Add-Box:hover {
+  border: 2px solid white;
+  background-color: rgb(27, 171, 238);
+  color: black;
+  font-weight: bolder;
+  transition: 0.5s ease-in-out;
+}
+
+#Remove-Box:hover {
+  border: 2px solid white;
+  background-color: red;
+  color: black;
+  font-weight: bolder;
+  transition: 0.5s ease-in-out;
+}
+
+/* button styling below  */
+button {
+  font-weight: bolder;
+  font-size: 15px;
+  height: 60px;
+  border: 2px solid black !important;
+  border-radius: 10px !important;
+}
